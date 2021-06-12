@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       <footer className='footer'>
-        <p>Copyrigth 2021 - Emiliano Peralta</p>
+        <p>2021 - Emiliano Peralta</p>
       </footer>
       <style jsx>{`
         .footer {
