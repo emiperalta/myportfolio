@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>Emiliano Peralta / Portfolio</title>
         <meta name='description' content='emiliano peralta portfolio' />
+        <link rel='shortcut icon' href='/favicon.png' type='image/x-icon' />
       </Head>
       <div>
         <Photo />

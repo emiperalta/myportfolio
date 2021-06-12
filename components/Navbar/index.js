@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <h3>{`<LOGO>`}</h3>
+        <img src='/favicon.png' alt='logo' />
         <a href='/cv.pdf' download>
           Descargar CV
         </a>
@@ -14,9 +14,9 @@ export default function Navbar() {
           justify-content: space-between;
           padding: 15px;
         }
-        h3 {
-          margin: 0;
-          font-weight: 700;
+        img {
+          width: 80px;
+          height: 80px;
         }
         a {
           background-color: #7d5a50;

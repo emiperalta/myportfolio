@@ -23,8 +23,9 @@ export default function ProjectCard({ project }) {
       <style jsx>{`
         .card {
           margin: 1rem 0;
-          background: #e4e4e4;
+          background: #f3f0d7;
           border-radius: 5px;
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
         }
         .image {
           padding: 5px;
@@ -38,6 +39,7 @@ export default function ProjectCard({ project }) {
           font-weight: 600;
           color: #343a40;
           margin-left: 10px;
+          text-transform: uppercase;
         }
         .links {
           display: flex;

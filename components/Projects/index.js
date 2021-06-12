@@ -16,7 +16,7 @@ export default function Projects() {
       <style jsx>{`
         .projects {
           text-align: center;
-          padding-bottom: 1.5rem;
+          padding-bottom: 1rem;
         }
         h3 {
           font-weight: 600;
