@@ -3,12 +3,14 @@ export default function Navbar() {
     <>
       <nav className='navbar'>
         <h3>{`<LOGO>`}</h3>
-        <button>Descargar CV</button>
+        <a href='/cv.pdf' download>
+          Descargar CV
+        </a>
       </nav>
       <style jsx>{`
         .navbar {
-          display: flex;
           align-items: center;
+          display: flex;
           justify-content: space-between;
           padding: 15px;
         }
@@ -16,22 +18,21 @@ export default function Navbar() {
           margin: 0;
           font-weight: 700;
         }
-        button {
+        a {
           background-color: #7d5a50;
           border-radius: 12px;
           border: none;
           color: #fff;
-          cursor: pointer;
           font-size: 0.85rem;
           font-weight: 600;
           padding: 15px;
           text-transform: uppercase;
           transition: background-color 0.2s ease;
         }
-        button:hover {
+        a:hover {
           background-color: #b4846c;
         }
-        button:active {
+        a:active {
           background-color: #d99879;
         }
       `}</style>
