@@ -13,7 +13,8 @@ export default function About() {
       <style jsx>{`
         .about {
           text-align: center;
-          padding: 1.5rem 0;
+          padding: 2rem 1rem 1.5rem 1rem;
+          flex: 1;
         }
         h3 {
           font-weight: 600;

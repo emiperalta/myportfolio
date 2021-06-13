@@ -6,24 +6,33 @@ export default function Projects() {
     <>
       <section className='projects'>
         <h3>Proyectos</h3>
-        {data.map(project => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+        <div className='project-list'>
+          {data.map(project => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
         <section className='more'>
-          <a href='https://github.com/emiperalta?tab=repositories'>and more...</a>
+          <a href='https://github.com/emiperalta?tab=repositories'>y más...</a>
         </section>
       </section>
       <style jsx>{`
         .projects {
-          text-align: center;
           padding-bottom: 1rem;
+        }
+        .project-list {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-gap: 20px;
         }
         h3 {
           font-weight: 600;
           text-transform: uppercase;
+          text-align: center;
+          margin-bottom: 15px;
         }
         .more {
-          padding: 15px 0;
+          padding: 20px 0 8px 0;
+          text-align: center;
         }
         a {
           text-decoration: underline;
@@ -35,6 +44,15 @@ export default function Projects() {
         a:hover {
           background: #47597e;
           color: #fff;
+        }
+        a:active {
+          background: #5e729a;
+        }
+
+        @media screen and (min-width: 550px) {
+          .project-list {
+            grid-template-columns: 1fr 1fr;
+          }
         }
       `}</style>
     </>

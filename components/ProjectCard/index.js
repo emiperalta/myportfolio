@@ -7,33 +7,34 @@ export default function ProjectCard({ project }) {
         <section className='image'>
           <Image
             src={project.image}
-            width={300}
-            height={180}
+            width={500}
+            height={300}
             className='project-img'
           />
         </section>
         <section className='content'>
-          <h4>{project.title}</h4>
-        </section>
-        <section className='links'>
-          <a href={project.code}>Code</a>
-          <a href={project.link}>Demo</a>
+          <div className='title'>
+            <h4>{project.title}</h4>
+          </div>
+          <div className='links'>
+            <a href={project.code}>Code</a>
+            <a href={project.link}>Demo</a>
+          </div>
         </section>
       </div>
       <style jsx>{`
         .card {
-          margin: 1rem 0;
-          background: #f3f0d7;
+          background-color: #fff;
+          border: 1px solid transparent;
           border-radius: 5px;
-          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
         }
         .image {
           padding: 5px;
         }
         .content {
           border-radius: 8px;
-          display: flex;
-          justify-content: flex-start;
+          position: relative;
         }
         h4 {
           font-weight: 600;
@@ -48,12 +49,19 @@ export default function ProjectCard({ project }) {
           padding: 0 5px 5px 0;
         }
         .links a {
-          background: #5e454b;
+          background-color: #47597e;
           border-radius: 5px;
           color: #fff;
           display: inline-block;
           margin-left: 8px;
           padding: 8px;
+          transition: background-color 0.2s ease;
+        }
+        .links a:hover {
+          background-color: #536790;
+        }
+        .links a:active {
+          background-color: #5e729a;
         }
       `}</style>
     </>

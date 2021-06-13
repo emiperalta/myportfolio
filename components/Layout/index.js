@@ -19,6 +19,7 @@ export default function Layout({ children }) {
           margin: 20px auto;
           padding: 0 20px;
           width: 100%;
+          max-width: 1000px;
         }
       `}</style>
     </>

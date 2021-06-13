@@ -35,6 +35,17 @@ export default function Navbar() {
         a:active {
           background-color: #d99879;
         }
+
+        @media screen and (min-width: 950px) {
+          img {
+            width: 100px;
+            height: 100px;
+            margin-left: 3rem;
+          }
+          a {
+            margin-right: 3rem;
+          }
+        }
       `}</style>
     </>
   );

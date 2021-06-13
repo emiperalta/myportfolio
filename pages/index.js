@@ -14,11 +14,22 @@ export default function Home() {
         <link rel='shortcut icon' href='/favicon.png' type='image/x-icon' />
       </Head>
       <div>
-        <Photo />
-        <About />
+        <div className='first'>
+          <Photo />
+          <About />
+        </div>
         <Projects />
         <Contact />
       </div>
+      <style jsx>{`
+        @media screen and (min-width: 950px) {
+          .first {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 1rem;
+          }
+        }
+      `}</style>
     </>
   );
 }
