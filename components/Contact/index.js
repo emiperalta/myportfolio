@@ -18,6 +18,7 @@ export default function Contact() {
       <style jsx>{`
         .contact {
           text-align: center;
+          padding-bottom: 1.5rem;
         }
         h3 {
           font-weight: 600;

@@ -13,12 +13,15 @@ export default function ProjectCard({ project }) {
           />
         </section>
         <section className='content'>
-          <div className='title'>
-            <h4>{project.title}</h4>
-          </div>
+          <h4>{project.title}</h4>
           <div className='links'>
             <a href={project.code}>Code</a>
             <a href={project.link}>Demo</a>
+          </div>
+          <div className='info'>
+            {project.techs.map(tech => (
+              <span>{tech}</span>
+            ))}
           </div>
         </section>
       </div>
@@ -34,13 +37,24 @@ export default function ProjectCard({ project }) {
         }
         .content {
           border-radius: 8px;
-          position: relative;
         }
         h4 {
           font-weight: 600;
           color: #343a40;
           margin-left: 10px;
           text-transform: uppercase;
+        }
+        .info {
+          padding: 10px 15px;
+          text-align: center;
+        }
+        .info span {
+          text-transform: uppercase;
+          font-size: 0.8rem;
+          color: #bbb;
+        }
+        .info span:after {
+          content: ' ';
         }
         .links {
           display: flex;

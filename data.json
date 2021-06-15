@@ -1,30 +1,52 @@
 [
   {
     "id": 1,
-    "title": "Local Library",
     "code": "https://github.com/emiperalta/express-locallibrary",
+    "image": "https://i.imgur.com/NHd0KPu.png",
     "link": "https://emi-locallibrary.herokuapp.com/catalog",
-    "image": "https://i.imgur.com/NHd0KPu.png"
+    "techs": ["node", "express", "mongodb", "mongoose"],
+    "title": "Local Library"
   },
   {
     "id": 2,
-    "title": "Social Media",
     "code": "https://github.com/emiperalta/social-media-merng",
+    "image": "https://i.imgur.com/tDJydiT.png",
     "link": "https://social-media-emiperalta.netlify.app/",
-    "image": "https://i.imgur.com/tDJydiT.png"
+    "techs": [
+      "graphql",
+      "mongoDB",
+      "mongoose",
+      "react",
+      "react-router",
+      "context",
+      "semantic-ui"
+    ],
+    "title": "Social Media"
   },
   {
     "id": 3,
-    "title": "Giffes",
     "code": "https://github.com/emiperalta/gifs-app",
+    "image": "https://i.imgur.com/PoFY3kw.png",
     "link": "https://giffes.vercel.app/",
-    "image": "https://i.imgur.com/PoFY3kw.png"
+    "techs": [
+      "node",
+      "express",
+      "mongodb",
+      "mongoose",
+      "react",
+      "wouter",
+      "context",
+      "formik",
+      "emotion"
+    ],
+    "title": "Giffes"
   },
   {
     "id": 4,
-    "title": "Milas Recipes",
     "code": "https://github.com/emiperalta/recipe-app-nextjs",
+    "image": "https://i.imgur.com/CYUWQLK.png",
     "link": "https://milas-recipes.vercel.app/",
-    "image": "https://i.imgur.com/CYUWQLK.png"
+    "techs": ["next", "contentful"],
+    "title": "Milas Recipes"
   }
 ]
