@@ -7,8 +7,8 @@ export default function Photo() {
         <Image
           alt='perfil photo'
           className='perfil-photo'
-          height={200}
-          src='/photo-ph.png'
+          height={220}
+          src='/photo.png'
           width={200}
         />
       </section>

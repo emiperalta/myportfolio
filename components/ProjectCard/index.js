@@ -20,7 +20,7 @@ export default function ProjectCard({ project }) {
           </div>
           <div className='info'>
             {project.techs.map(tech => (
-              <span>{tech}</span>
+              <span key={tech}>{tech}</span>
             ))}
           </div>
         </section>
