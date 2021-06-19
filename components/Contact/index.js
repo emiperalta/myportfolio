@@ -5,13 +5,13 @@ export default function Contact() {
         <h3>Contacto</h3>
         <section>
           <a href='https://github.com/emiperalta'>
-            <img src='/github.png' alt='github logo' />
+            <i className='fab fa-github-square'></i>
           </a>
           <a href='https://www.linkedin.com/in/emiliano-peralta-320ab11b5/'>
-            <img src='/linkedin.png' alt='linkedin logo' />
+            <i className='fab fa-linkedin'></i>
           </a>
           <a href='mailto:emiwperalta@gmail.com'>
-            <img src='/gmail.png' alt='gmail logo' />
+            <i className='fas fa-envelope-square'></i>
           </a>
         </section>
       </section>
@@ -27,9 +27,8 @@ export default function Contact() {
         section {
           margin-top: 1rem;
         }
-        img {
-          width: 60px;
-          height: 60px;
+        i {
+          font-size: 3.2rem;
           margin: 0 10px;
         }
       `}</style>
