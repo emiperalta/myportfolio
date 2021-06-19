@@ -4,8 +4,6 @@ import { Light, Dark } from 'utils/theme';
 export default function Navbar() {
   const [theme, setTheme] = useState(false);
 
-  const handleClick = () => setTheme(!theme);
-
   return (
     <>
       <nav className='navbar'>
@@ -15,7 +13,7 @@ export default function Navbar() {
         </a>
       </nav>
       <div className='toggler-container'>
-        <button onClick={handleClick} className='toggler-btn'>
+        <button onClick={() => setTheme(!theme)} className='toggler-btn'>
           {theme ? <i className='fas fa-sun'></i> : <i className='fas fa-moon'></i>}
         </button>
       </div>

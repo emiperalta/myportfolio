@@ -28,7 +28,7 @@ export default function Projects() {
           font-weight: 600;
           text-transform: uppercase;
           text-align: center;
-          margin-bottom: 15px;
+          margin-bottom: 25px;
         }
         .more {
           padding: 25px 0 8px 0;

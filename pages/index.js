@@ -4,6 +4,7 @@ import About from 'components/About';
 import Contact from 'components/Contact';
 import Photo from 'components/Photo';
 import Projects from 'components/Projects';
+import Technologies from 'components/Technologies';
 
 export default function Home() {
   return (
@@ -19,12 +20,17 @@ export default function Home() {
           crossorigin='anonymous'
           referrerpolicy='no-referrer'
         />
+        <link
+          rel='stylesheet'
+          href='https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css'
+        ></link>
       </Head>
       <div>
         <div className='first'>
           <Photo />
           <About />
         </div>
+        <Technologies />
         <Projects />
         <Contact />
       </div>

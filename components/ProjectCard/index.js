@@ -41,7 +41,7 @@ export default function ProjectCard({ project }) {
         h4 {
           font-weight: 600;
           color: #343a40;
-          margin-left: 10px;
+          margin-left: 20px;
           text-transform: uppercase;
         }
         .info {
