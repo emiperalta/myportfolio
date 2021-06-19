@@ -15,8 +15,8 @@ export default function Photo() {
       <style jsx>{`
         .img {
           display: flex;
+          align-items: center;
           justify-content: center;
-          padding-bottom: 1.5rem;
         }
       `}</style>
     </>
