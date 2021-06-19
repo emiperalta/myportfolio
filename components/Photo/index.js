@@ -16,7 +16,7 @@ export default function Photo() {
         .img {
           display: flex;
           justify-content: center;
-          padding: 1.5rem 0;
+          padding-bottom: 1.5rem;
         }
       `}</style>
     </>

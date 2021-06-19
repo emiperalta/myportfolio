@@ -31,7 +31,7 @@ export default function Projects() {
           margin-bottom: 15px;
         }
         .more {
-          padding: 20px 0 8px 0;
+          padding: 25px 0 8px 0;
           text-align: center;
         }
         a {
