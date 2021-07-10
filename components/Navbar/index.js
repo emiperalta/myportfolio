@@ -1,20 +1,43 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
 import { Light, Dark } from 'utils/theme';
 
 export default function Navbar() {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState('light');
+
+  useEffect(() => {
+    console.log('entró');
+    if (typeof window !== 'undefined') {
+      const themeFromLS = window.localStorage.getItem('theme');
+      console.log('from ls', themeFromLS);
+      setTheme(themeFromLS);
+      console.log('in component', theme);
+    }
+  }, [theme]);
+
+  const handleClick = () => {
+    localStorage.setItem('theme', theme === 'light' ? 'dark' : 'light');
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  };
 
   return (
     <>
       <nav className='navbar'>
-        <img src={theme ? '/favicon-dm.png' : '/favicon.png'} alt='logo' />
+        <img
+          src={theme === 'dark' ? '/favicon-dm.png' : '/favicon.png'}
+          alt='logo'
+        />
         <a href='/cv.pdf' download>
           Descargar CV
         </a>
       </nav>
       <div className='toggler-container'>
-        <button onClick={() => setTheme(!theme)} className='toggler-btn'>
-          {theme ? <i className='fas fa-sun'></i> : <i className='fas fa-moon'></i>}
+        <button onClick={handleClick} className='toggler-btn'>
+          {theme === 'dark' ? (
+            <i className='fas fa-sun'></i>
+          ) : (
+            <i className='fas fa-moon'></i>
+          )}
         </button>
       </div>
       <style jsx>{`
@@ -68,7 +91,7 @@ export default function Navbar() {
           }
         }
       `}</style>
-      {theme ? <Dark /> : <Light />}
+      {theme === 'dark' ? <Dark /> : <Light />}
     </>
   );
 }
