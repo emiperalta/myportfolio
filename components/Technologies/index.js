@@ -13,14 +13,10 @@ export default function Technologies() {
           <i className='devicon-git-plain-wordmark'></i>
         </div>
       </section>
-      <style>{`
+      <style jsx>{`
         .technologies {
           padding: 1rem 0;
           text-align: center;
-        }
-        h3 {
-          font-weight: 600;
-          text-transform: uppercase;
         }
         .icons {
           display: flex;
