@@ -16,10 +16,6 @@ export default function About() {
           flex: 1;
           text-align: center;
         }
-        h3 {
-          font-weight: 600;
-          text-transform: uppercase;
-        }
 
         @media screen and (min-width: 950px) {
           .about {

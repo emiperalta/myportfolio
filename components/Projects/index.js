@@ -18,6 +18,7 @@ export default function Projects() {
       <style jsx>{`
         .projects {
           padding-bottom: 1rem;
+          text-align: center;
         }
         .project-list {
           display: grid;
@@ -25,9 +26,6 @@ export default function Projects() {
           grid-gap: 20px;
         }
         h3 {
-          font-weight: 600;
-          text-transform: uppercase;
-          text-align: center;
           margin-bottom: 25px;
         }
         .more {
@@ -35,7 +33,6 @@ export default function Projects() {
           text-align: center;
         }
         a {
-          text-decoration: underline;
           font-size: 1.4rem;
           padding: 5px 8px;
           background: #fff;

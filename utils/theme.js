@@ -7,6 +7,13 @@ export const Light = () => {
         color: #000;
         transition: all 0.2s ease;
       }
+      h3 {
+        display: inline-block;
+        font-weight: 600;
+        padding: 0 10px;
+        text-transform: uppercase;
+        text-decoration: underline solid #000000;
+      }
       .footer {
         background-color: #efefef;
         color: #4c4c4c;
@@ -22,6 +29,13 @@ export const Dark = () => {
         background-color: #1e1f25;
         color: #fff;
         transition: all 0.3s ease;
+      }
+      h3 {
+        display: inline-block;
+        font-weight: 600;
+        padding: 0 10px;
+        text-decoration: underline solid #fff;
+        text-transform: uppercase;
       }
       .navbar,
       .footer {
