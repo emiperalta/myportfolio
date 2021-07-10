@@ -15,8 +15,12 @@ export default function ProjectCard({ project }) {
         <section className='content'>
           <h4>{project.title}</h4>
           <div className='links'>
-            <a href={project.code}>Code</a>
-            <a href={project.link}>Demo</a>
+            <a href={project.code} target='_blank'>
+              Code
+            </a>
+            <a href={project.link} target='_blank'>
+              Demo
+            </a>
           </div>
           <div className='info'>
             {project.techs.map(tech => (

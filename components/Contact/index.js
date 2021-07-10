@@ -4,10 +4,13 @@ export default function Contact() {
       <section className='contact'>
         <h3>Contacto</h3>
         <section>
-          <a href='https://github.com/emiperalta'>
+          <a href='https://github.com/emiperalta' target='_blank'>
             <i className='fab fa-github-square'></i>
           </a>
-          <a href='https://www.linkedin.com/in/emiliano-peralta-320ab11b5/'>
+          <a
+            href='https://www.linkedin.com/in/emiliano-peralta-320ab11b5/'
+            target='_blank'
+          >
             <i className='fab fa-linkedin'></i>
           </a>
           <a href='mailto:emiwperalta@gmail.com'>
