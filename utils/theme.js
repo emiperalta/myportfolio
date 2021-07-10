@@ -1,8 +1,7 @@
 export const Light = () => {
   return (
     <style jsx global>{`
-      body,
-      .navbar {
+      body {
         background-color: #fff;
         color: #000;
         transition: all 0.2s ease;
@@ -14,8 +13,14 @@ export const Light = () => {
         text-transform: uppercase;
         text-decoration: underline solid #000000;
       }
+      .card {
+        background-color: #f5f5f5;
+        border: 1px solid transparent;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
+      }
+      .navbar,
       .footer {
-        background-color: #efefef;
+        background-color: #f5f5f5;
         color: #4c4c4c;
       }
     `}</style>

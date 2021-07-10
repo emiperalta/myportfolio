@@ -27,10 +27,7 @@ export default function ProjectCard({ project }) {
       </div>
       <style jsx>{`
         .card {
-          background-color: #fff;
-          border: 1px solid transparent;
           border-radius: 5px;
-          box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
         }
         .image {
           padding: 5px;

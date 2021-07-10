@@ -6,8 +6,6 @@ export default function Footer() {
       </footer>
       <style jsx>{`
         .footer {
-          background-color: #efefef;
-          color: #4c4c4c;
           font-size: 0.8rem;
           margin-top: auto;
           padding: 10px;
