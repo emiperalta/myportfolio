@@ -5,7 +5,7 @@
     "image": "https://i.imgur.com/NHd0KPu.png",
     "link": "https://emi-locallibrary.herokuapp.com/catalog",
     "techs": ["node", "express", "mongodb", "mongoose"],
-    "title": "Local Library"
+    "title": "Libería Local"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "context",
       "semantic-ui"
     ],
-    "title": "Social Media"
+    "title": "Red Social"
   },
   {
     "id": 3,
@@ -47,6 +47,6 @@
     "image": "https://i.imgur.com/CYUWQLK.png",
     "link": "https://milas-recipes.vercel.app/",
     "techs": ["next", "contentful"],
-    "title": "Milas Recipes"
+    "title": "Recetas de Milanesas"
   }
 ]
