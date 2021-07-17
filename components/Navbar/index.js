@@ -6,12 +6,8 @@ export default function Navbar() {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    console.log('entró');
     if (typeof window !== 'undefined') {
-      const themeFromLS = window.localStorage.getItem('theme');
-      console.log('from ls', themeFromLS);
-      setTheme(themeFromLS);
-      console.log('in component', theme);
+      setTheme(window.localStorage.getItem('theme'));
     }
   }, [theme]);
 
