@@ -12,7 +12,9 @@ export default function Projects() {
           ))}
         </div>
         <section className='more'>
-          <a href='https://github.com/emiperalta?tab=repositories'>y más...</a>
+          <a href='https://github.com/emiperalta?tab=repositories' target='_blank'>
+            y más...
+          </a>
         </section>
       </section>
       <style jsx>{`
