@@ -50,7 +50,7 @@ export default function ProjectCard({ project }) {
         }
         .info span {
           text-transform: uppercase;
-          font-size: 0.8rem;
+          font-size: 0.7rem;
           color: #bbb;
         }
         .info span:after {
@@ -66,9 +66,11 @@ export default function ProjectCard({ project }) {
           background-color: #47597e;
           border-radius: 5px;
           color: #fff;
+          font-size: 15px;
           display: inline-block;
           margin: 0 5px;
           padding: 8px;
+          text-transform: uppercase;
           transition: background-color 0.2s ease;
         }
         .links a:hover {
