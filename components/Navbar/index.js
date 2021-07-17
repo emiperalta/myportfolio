@@ -23,7 +23,7 @@ export default function Navbar() {
           src={theme === 'dark' ? '/favicon-dm.png' : '/favicon.png'}
           alt='logo'
         />
-        <a href='/cv.pdf' download>
+        <a href='/CV-Emiliano-Peralta.pdf' download>
           Descargar CV
         </a>
       </nav>
@@ -48,7 +48,7 @@ export default function Navbar() {
           height: 80px;
         }
         a {
-          background-color: #7d5a50;
+          background-color: #24b188;
           border-radius: 12px;
           border: none;
           color: #fff;
@@ -59,10 +59,10 @@ export default function Navbar() {
           transition: background-color 0.2s ease;
         }
         a:hover {
-          background-color: #b4846c;
+          background-color: #24c596;
         }
         a:active {
-          background-color: #d99879;
+          background-color: #1fdea6;
         }
         .toggler-container {
           margin: 0 auto;
