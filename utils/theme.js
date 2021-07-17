@@ -16,7 +16,7 @@ export const Light = () => {
       .card {
         background-color: #f5f5f5;
         border: 1px solid transparent;
-        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 2px 4px 6px rgb(154 154 154 / 41%);
       }
       .navbar,
       .footer {
@@ -56,7 +56,7 @@ export const Dark = () => {
       .card {
         background-color: #272831 !important;
         border: 1px solid transparent !important;
-        box-shadow: 3px 4px 6px rgb(158 158 158 / 12%) !important;
+        box-shadow: 2px 4px 6px rgb(19 19 19 / 82%);
       }
       .content h4 {
         color: #fff;
