@@ -16,7 +16,7 @@ export default function ProjectCard({ project }) {
           <h4>{project.title}</h4>
           <div className='links'>
             <a href={project.code} target='_blank'>
-              Code
+              Código
             </a>
             <a href={project.link} target='_blank'>
               Demo
@@ -59,7 +59,7 @@ export default function ProjectCard({ project }) {
         }
         .links {
           display: flex;
-          justify-content: flex-end;
+          justify-content: center;
           margin-top: 10px;
           padding: 0 5px 5px 0;
         }
@@ -68,7 +68,7 @@ export default function ProjectCard({ project }) {
           border-radius: 5px;
           color: #fff;
           display: inline-block;
-          margin-left: 8px;
+          margin: 0 5px;
           padding: 8px;
           transition: background-color 0.2s ease;
         }
