@@ -6,10 +6,12 @@ export default function Technologies() {
         <div className='icons'>
           <i className='devicon-nodejs-plain-wordmark'></i>
           <i className='devicon-express-original-wordmark'></i>
+          <i className='devicon-dot-net-plain-wordmark'></i>
           <i className='devicon-react-original-wordmark'></i>
           <i className='devicon-nextjs-original-wordmark'></i>
           <i className='devicon-mongodb-plain-wordmark'></i>
           <i className='devicon-mysql-plain-wordmark'></i>
+          <i className='devicon-microsoftsqlserver-plain-wordmark'></i>
           <i className='devicon-git-plain-wordmark'></i>
         </div>
       </section>
