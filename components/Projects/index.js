@@ -36,8 +36,9 @@ export default function Projects() {
         }
         a {
           font-size: 1.4rem;
-          padding: 5px 8px;
+          padding: 5px 10px;
           background: #fff;
+          border-radius: 5px;
           transition: all 0.2s ease;
         }
         a:hover {
