@@ -1,3 +1,5 @@
+import { calculateAge } from 'utils/calculateAge';
+
 export default function About() {
   return (
     <>
@@ -5,7 +7,8 @@ export default function About() {
         <h3>Acerca de mí</h3>
         <p>
           ¡Hola! Mi nombre es Emiliano, y soy programador fullstack. <br />
-          Tengo 24 años, viviendo actualmente en Córdoba, Argentina. <br />
+          Tengo {calculateAge(13, 8, 1996)} años, viviendo actualmente en Córdoba,
+          Argentina. <br />
           Apasionado por las distintas tecnologías, estoy en constante aprendizaje y
           siempre abierto a nuevos desafíos.
         </p>
