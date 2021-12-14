@@ -69,18 +69,18 @@ export default function Navbar() {
           padding: 40px;
         }
         .toggler-btn {
-          border: none;
           background: none;
-          max-width: 100px;
-          font-size: 2.5rem;
+          border: none;
           cursor: pointer;
+          font-size: 2.5rem;
+          max-width: 100px;
         }
 
         @media screen and (min-width: 950px) {
           img {
-            width: 100px;
             height: 100px;
             margin-left: 3rem;
+            width: 100px;
           }
           a {
             margin-right: 3rem;

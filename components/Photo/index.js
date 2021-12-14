@@ -14,8 +14,8 @@ export default function Photo() {
       </section>
       <style jsx>{`
         .img {
-          display: flex;
           align-items: center;
+          display: flex;
           justify-content: center;
         }
       `}</style>

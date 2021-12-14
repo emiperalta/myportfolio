@@ -17,9 +17,9 @@ export default function Layout({ children }) {
         }
         .page-content {
           margin: 20px auto;
+          max-width: 1000px;
           padding: 0 20px;
           width: 100%;
-          max-width: 1000px;
         }
       `}</style>
     </>

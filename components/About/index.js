@@ -15,8 +15,8 @@ export default function About() {
       </section>
       <style jsx>{`
         .about {
-          padding: 2rem 0 1.5rem 0;
           flex: 1;
+          padding: 2rem 0 1.5rem 0;
           text-align: center;
         }
 

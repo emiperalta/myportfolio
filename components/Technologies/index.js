@@ -22,8 +22,8 @@ export default function Technologies() {
         }
         .icons {
           display: flex;
-          justify-content: center;
           flex-wrap: wrap;
+          justify-content: center;
           padding: 30px 20px;
         }
         .icons i {

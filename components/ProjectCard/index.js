@@ -49,9 +49,9 @@ export default function ProjectCard({ project }) {
           text-align: center;
         }
         .info span {
-          text-transform: uppercase;
-          font-size: 0.7rem;
           color: #bbb;
+          font-size: 0.7rem;
+          text-transform: uppercase;
         }
         .info span:after {
           content: ' ';
@@ -66,8 +66,8 @@ export default function ProjectCard({ project }) {
           background-color: #47597e;
           border-radius: 5px;
           color: #fff;
-          font-size: 15px;
           display: inline-block;
+          font-size: 15px;
           margin: 0 5px;
           padding: 8px;
           text-transform: uppercase;
