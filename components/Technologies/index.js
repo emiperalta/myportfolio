@@ -4,15 +4,18 @@ export default function Technologies() {
       <section className='technologies'>
         <h3>Tecnologías</h3>
         <div className='icons'>
-          <i className='devicon-nodejs-plain-wordmark'></i>
+          <i className='devicon-nodejs-plain-wordmark colored'></i>
           <i className='devicon-express-original-wordmark'></i>
-          <i className='devicon-dot-net-plain-wordmark'></i>
-          <i className='devicon-react-original-wordmark'></i>
+          <i className="devicon-typescript-plain colored"></i>
+          <i className="devicon-jest-plain colored"></i>
+          <i className="devicon-docker-plain-wordmark colored"></i>
+          <i className='devicon-dot-net-plain-wordmark colored'></i>
+          <i className='devicon-react-original-wordmark colored'></i>
+          <i className="devicon-redux-original colored"></i>
           <i className='devicon-nextjs-original-wordmark'></i>
-          <i className='devicon-mongodb-plain-wordmark'></i>
-          <i className='devicon-mysql-plain-wordmark'></i>
-          <i className='devicon-microsoftsqlserver-plain-wordmark'></i>
-          <i className='devicon-git-plain-wordmark'></i>
+          <i className='devicon-mongodb-plain-wordmark colored'></i>
+          <i className='devicon-mysql-plain-wordmark colored'></i>
+          <i className='devicon-git-plain-wordmark colored'></i>
         </div>
       </section>
       <style jsx>{`
