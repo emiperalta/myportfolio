@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Contact(): JSX.Element {
   return (
     <>
       <section className='contact'>

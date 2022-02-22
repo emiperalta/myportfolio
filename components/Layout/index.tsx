@@ -1,7 +1,11 @@
 import Footer from 'components/Footer';
 import Navbar from 'components/Navbar';
 
-export default function Layout({ children }) {
+interface Props {
+  children: JSX.Element;
+}
+
+export default function Layout({ children }: Props): JSX.Element {
   return (
     <>
       <div className='main'>

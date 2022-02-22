@@ -1,13 +1,22 @@
 import data from 'data.json';
 import ProjectCard from 'components/ProjectCard';
 
-export default function Projects() {
+export interface Project {
+  id: number;
+  code: string;
+  image: string;
+  link: string;
+  techs: string[];
+  title: string;
+}
+
+export default function Projects(): JSX.Element {
   return (
     <>
       <section className='projects'>
         <h3>Proyectos</h3>
         <div className='project-list'>
-          {data.map(project => (
+          {data.map((project: Project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>

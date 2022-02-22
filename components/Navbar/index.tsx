@@ -2,16 +2,16 @@ import { useEffect, useState } from 'react';
 
 import { Light, Dark } from 'utils/theme';
 
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
   const [theme, setTheme] = useState('light');
 
-  useEffect(() => {
+  useEffect((): void => {
     if (typeof window !== 'undefined') {
-      setTheme(window.localStorage.getItem('theme'));
+      setTheme(window.localStorage.getItem('theme')!);
     }
   }, [theme]);
 
-  const handleClick = () => {
+  const handleClick = (): void => {
     localStorage.setItem('theme', theme === 'light' ? 'dark' : 'light');
     setTheme(theme === 'light' ? 'dark' : 'light');
   };

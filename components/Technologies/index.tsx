@@ -1,4 +1,4 @@
-export default function Technologies() {
+export default function Technologies(): JSX.Element {
   return (
     <>
       <section className='technologies'>

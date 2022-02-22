@@ -4,7 +4,7 @@ import Photo from 'components/Photo';
 import Projects from 'components/Projects';
 import Technologies from 'components/Technologies';
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <>
       <div>

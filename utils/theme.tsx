@@ -1,4 +1,4 @@
-export const Light = () => {
+export const Light = (): JSX.Element => {
   return (
     <style jsx global>{`
       body {
@@ -27,7 +27,7 @@ export const Light = () => {
   );
 };
 
-export const Dark = () => {
+export const Dark = (): JSX.Element => {
   return (
     <style jsx global>{`
       body {

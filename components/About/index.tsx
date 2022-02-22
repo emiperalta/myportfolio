@@ -1,6 +1,6 @@
 import { calculateAge } from 'utils/calculateAge';
 
-export default function About() {
+export default function About(): JSX.Element {
   return (
     <>
       <section className='about'>

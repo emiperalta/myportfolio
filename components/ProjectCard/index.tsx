@@ -1,6 +1,12 @@
 import Image from 'next/image';
 
-export default function ProjectCard({ project }) {
+import { Project } from '../Projects';
+
+interface Props {
+  project: Project;
+}
+
+export default function ProjectCard({ project }: Props): JSX.Element {
   return (
     <>
       <div className='card'>
@@ -23,7 +29,7 @@ export default function ProjectCard({ project }) {
             </a>
           </div>
           <div className='info'>
-            {project.techs.map(tech => (
+            {project.techs.map((tech: string) => (
               <span key={tech}>{tech}</span>
             ))}
           </div>

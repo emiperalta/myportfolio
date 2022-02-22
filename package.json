@@ -1,6 +1,6 @@
 {
   "name": "emilianoperalta-my-portfolio",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,5 +11,10 @@
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "@types/react": "^17.0.39",
+    "typescript": "^4.5.5"
   }
 }
