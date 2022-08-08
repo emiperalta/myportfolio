@@ -1,20 +1,18 @@
 export default function Contact(): JSX.Element {
   return (
     <>
-      <section className='contact'>
+      <section className="contact">
         <h3>Contacto</h3>
         <section>
-          <a href='https://github.com/emiperalta' target='_blank'>
-            <i className='fab fa-github-square'></i>
-          </a>
           <a
-            href='https://www.linkedin.com/in/emiliano-peralta-320ab11b5/'
-            target='_blank'
+            href="https://www.linkedin.com/in/emiliano-peralta-320ab11b5/"
+            target="_blank"
+            title="Linkedin"
           >
-            <i className='fab fa-linkedin'></i>
+            <i className="fab fa-linkedin"></i>
           </a>
-          <a href='mailto:emiwperalta@gmail.com'>
-            <i className='fas fa-envelope-square'></i>
+          <a href="mailto:emiwperalta@gmail.com" title="Email">
+            <i className="fas fa-envelope-square"></i>
           </a>
         </section>
       </section>

@@ -1,14 +1,15 @@
 import { calculateAge } from 'utils/calculateAge';
 
 export default function About(): JSX.Element {
+  const actualAge = calculateAge(new Date('1996-08-13'));
+
   return (
     <>
-      <section className='about'>
+      <section className="about">
         <h3>Acerca de mí</h3>
         <p>
           ¡Hola! Mi nombre es Emiliano, y soy programador fullstack. <br />
-          Tengo {calculateAge(13, 8, 1996)} años, viviendo actualmente en Córdoba,
-          Argentina. <br />
+          Tengo {actualAge} años, viviendo actualmente en Córdoba, Argentina. <br />
           Apasionado por las distintas tecnologías, estoy en constante aprendizaje y
           siempre abierto a nuevos desafíos.
         </p>

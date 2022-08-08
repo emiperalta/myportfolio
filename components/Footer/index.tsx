@@ -1,8 +1,10 @@
 export default function Footer(): JSX.Element {
+  const actualYear = new Date().getFullYear();
+
   return (
     <>
-      <footer className='footer'>
-        <p>2021 &copy; - Emiliano Peralta</p>
+      <footer className="footer">
+        <p>{actualYear} &copy; - Emiliano Peralta</p>
       </footer>
       <style jsx>{`
         .footer {

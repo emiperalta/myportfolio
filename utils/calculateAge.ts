@@ -1,13 +1,5 @@
-export const calculateAge = (birthDay: number, birthMonth: number, birthYear: number): number => {
-  const currentDate: Date = new Date();
-  const currentDay: number = currentDate.getDay();
-  const currentMonth: number = currentDate.getMonth();
-  const currentYear: number = currentDate.getFullYear();
-
-  let calculatedAge: number = currentYear - birthYear;
-
-  currentMonth < birthMonth && calculatedAge--;
-  birthMonth - 1 === currentMonth && currentDay < birthDay && calculatedAge--;
-
-  return calculatedAge;
+export const calculateAge = (birthDate: Date): number => {
+  var diff_ms = Date.now() - birthDate.getTime();
+  var age_dt = new Date(diff_ms);
+  return Math.abs(age_dt.getUTCFullYear() - 1970);
 };

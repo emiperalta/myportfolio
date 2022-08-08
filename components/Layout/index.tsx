@@ -1,16 +1,16 @@
 import Footer from 'components/Footer';
 import Navbar from 'components/Navbar';
 
-interface Props {
+interface LayoutProps {
   children: JSX.Element;
 }
 
-export default function Layout({ children }: Props): JSX.Element {
+export default function Layout({ children }: LayoutProps): JSX.Element {
   return (
     <>
-      <div className='main'>
+      <div className="main">
         <Navbar />
-        <div className='page-content'>{children}</div>
+        <div className="page-content">{children}</div>
         <Footer />
       </div>
       <style jsx>{`

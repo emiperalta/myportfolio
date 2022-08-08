@@ -18,21 +18,21 @@ export default function Navbar(): JSX.Element {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className="navbar">
         <img
           src={theme === 'dark' ? '/favicon-dm.png' : '/favicon.png'}
-          alt='logo'
+          alt="logo"
         />
-        <a href='/CV-Emiliano-Peralta.pdf' download>
+        <a href="/CV-Emiliano-Peralta.pdf" download>
           Descargar CV
         </a>
       </nav>
-      <div className='toggler-container'>
-        <button onClick={handleClick} className='toggler-btn'>
+      <div className="toggler-container">
+        <button onClick={handleClick} className="toggler-btn">
           {theme === 'dark' ? (
-            <i className='fas fa-sun'></i>
+            <i className="fas fa-sun"></i>
           ) : (
-            <i className='fas fa-moon'></i>
+            <i className="fas fa-moon"></i>
           )}
         </button>
       </div>
