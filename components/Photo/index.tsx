@@ -3,12 +3,12 @@ import Image from 'next/image';
 export default function Photo(): JSX.Element {
   return (
     <>
-      <section className='img'>
+      <section className="img">
         <Image
-          alt='perfil photo'
-          className='perfil-photo'
+          alt="perfil photo"
+          className="perfil-photo"
           height={220}
-          src='/photo.png'
+          src="/photo.png"
           width={200}
         />
       </section>
