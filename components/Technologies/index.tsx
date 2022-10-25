@@ -9,6 +9,7 @@ export default function Technologies(): JSX.Element {
           <i className='devicon-nestjs-plain-wordmark colored' />
           <i className='devicon-typescript-plain colored' />
           <i className='devicon-jest-plain colored' />
+          <i className='devicon-laravel-plain-wordmark colored' />
           <i className='devicon-docker-plain-wordmark colored' />
           <i className='devicon-react-original-wordmark colored' />
           <i className='devicon-redux-original colored' />
